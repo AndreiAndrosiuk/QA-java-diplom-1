@@ -17,7 +17,7 @@ public class IngredientTypeParametrizedTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] IngredientTypeData() {
+    public static Object[][] ingredientTypeData() {
         return new Object[][]{
                 {"SAUCE", true},
                 {"FILLING", true},
@@ -27,7 +27,7 @@ public class IngredientTypeParametrizedTest {
     }
 
     @Test
-    public void CheckIngredientType() {
+    public void checkIngredientType() {
         boolean actualResult = true;
         try {
             String expected = type;

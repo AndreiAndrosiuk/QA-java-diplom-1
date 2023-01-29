@@ -1,5 +1,4 @@
 import org.junit.Test;
-import org.mockito.Spy;
 import praktikum.Ingredient;
 import praktikum.IngredientType;
 
@@ -7,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 
 public class IngredientTest {
 
-    @Spy
     Ingredient ingredient = new Ingredient(IngredientType.FILLING, "Мясная котлета", 99.00f);
 
     @Test

@@ -37,7 +37,6 @@ public class BurgerTest {
         Burger burger = new Burger();
         burger.addIngredient(ingredient);
         assertNotNull(burger.ingredients);
-        //assertEquals("Неправильное количество ингридиентов",0,burger.ingredients.size());
     }
 
     @Test

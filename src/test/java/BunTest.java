@@ -11,7 +11,7 @@ public class BunTest {
         Bun bun = new Bun("Булочка с кунжутом", 55.00f);
         String expected = "Булочка с кунжутом";
         String actual = bun.getName();
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class BunTest {
         Bun bun = new Bun("Булочка с кунжутом", 55.00f);
         float expected = 55.00f;
         float actual = bun.getPrice();
-        assertEquals(actual, expected, 0.00f);
+        assertEquals(expected, actual, 0.00f);
     }
 
 
